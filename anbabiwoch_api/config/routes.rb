@@ -4,6 +4,12 @@ Rails.application.routes.draw do
   get '/books/:id', to: 'books#show'
   post '/books', to: 'books#create'
   delete '/books/:id', to: 'books#destroy'
+
+  ########Routes for reviews############
+  get '/reviews', to: 'reviews#index'
+  get '/reviews/:id', to: 'reviews#show'
+  patch '/reviews/:id', to:'reviews#update'
+
   # resources :reviews
   # resources :users
   # resources :books

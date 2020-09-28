@@ -24,6 +24,8 @@ class BooksController < ApplicationController
         book.destroy
     end
 
+    
+
     private
 
     def book_params
