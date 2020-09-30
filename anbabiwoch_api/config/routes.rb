@@ -8,8 +8,11 @@ Rails.application.routes.draw do
   ########Routes for reviews############
   get '/reviews', to: 'reviews#index'
   get '/reviews/:id', to: 'reviews#show'
+  post '/reviews', to: 'reviews#create'
   patch '/reviews/:id', to:'reviews#update'
 
+  ##########Routes for users##############
+  get '/users', to: 'users#index'
   # resources :reviews
   # resources :users
   # resources :books
