@@ -10,7 +10,8 @@ Rails.application.routes.draw do
   get '/reviews/:id', to: 'reviews#show'
   post '/reviews', to: 'reviews#create'
   patch '/reviews/:id', to:'reviews#update'
-
+  delete '/reviews/:id', to: 'reviews#destroy'
+  
   ##########Routes for users##############
   get '/users', to: 'users#index'
   # resources :reviews
