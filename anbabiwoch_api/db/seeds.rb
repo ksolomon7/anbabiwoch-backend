@@ -63,4 +63,4 @@ review12= Review.create(comment:"I wish I was them lol. Definitely worth the rea
 
 # review13= Review.create(comment:, ratings:, user_id:, book_id:)
 
-puts "I have seeded!"
+puts "📕📕📕📕📕I have seeded!📕📕📕📕📕"
